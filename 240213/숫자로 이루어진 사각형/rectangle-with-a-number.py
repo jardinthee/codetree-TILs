@@ -1,3 +1,6 @@
+I = int(input(''))
+
+
 def print_square(N):
     val = 1
     for i in range(N):  
@@ -8,4 +11,4 @@ def print_square(N):
                 val = 1
         print('')    
 
-print_square(4)
+print_square(I)
