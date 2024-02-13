@@ -6,3 +6,5 @@ def gong_finder(n,m):
         if (n%i == 0) and (m%i ==0):
             g_list.append(i)
     print(g_list[-1])
+
+gong_finder(n,m)
