@@ -15,6 +15,6 @@ def cal(a,b,c):
        else:
         pass
        val += 1     
-    print(mi[0])
+    return(mi[0])
 
-cal(a,b,c)
+print(cal(a,b,c))
