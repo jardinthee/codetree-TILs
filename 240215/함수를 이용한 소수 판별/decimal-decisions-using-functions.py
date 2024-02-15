@@ -5,6 +5,11 @@ a,b = map(int,input().split())
 
 def is_Prime(N):
     switch = 0
+
+    if N == 1:
+        return False
+
+
     for n in range(2,N):
         if N % n == 0:
           switch += 1
