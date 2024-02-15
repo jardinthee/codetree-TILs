@@ -11,7 +11,7 @@ def cal(a,b,c):
        if val == 3:
         break 
        if alist[val] < mi[0]:
-        mi[0].replace(alist[val])
+        mi[0] = alist[val]
        else:
         pass
        val += 1     
