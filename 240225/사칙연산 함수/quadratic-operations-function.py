@@ -1,4 +1,4 @@
-a,o,c = input().split()
+a,o,c = input().split(" ")
 a = int(a)
 c = int(c)
 def cal(a,o,c):
