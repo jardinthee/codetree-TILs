@@ -1,17 +1,17 @@
 a,o,c = input().split(" ")
 a = int(a)
 c = int(c)
+
 def cal(a,o,c):
     if o == '+':
         print(f'{a} {o} {c} = {a+c}')
     elif o == '-':
-        print(f'{a} {o} {c} = {a-c}')
+        print(f'str({a}) {o} str({c}) = {a-c}')
     elif o == '/':
-        print(f'{a} {o} {c} = {a/c.f}')
+        print(f'{a} {o} {c} =',int(a/c))
     elif o == '*':
         print(f'{a} {o} {c} = {a*c}')
     else:
         print('False')
-
-
+        
 cal(a,o,c)
