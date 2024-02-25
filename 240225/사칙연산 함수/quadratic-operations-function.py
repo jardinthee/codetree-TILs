@@ -6,7 +6,7 @@ def cal(a,o,c):
     if o == '+':
         print(f'{a} {o} {c} = {a+c}')
     elif o == '-':
-        print(f'str({a}) {o} str({c}) = {a-c}')
+        print(f'{a} {o} {c} = {a-c}')
     elif o == '/':
         print(f'{a} {o} {c} =',int(a/c))
     elif o == '*':
