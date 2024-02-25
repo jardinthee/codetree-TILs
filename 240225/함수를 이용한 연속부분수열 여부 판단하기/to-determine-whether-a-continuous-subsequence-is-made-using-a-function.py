@@ -1,17 +1,16 @@
-n1, n2 = map(int,input().split(" "))
-list_A= list(map(int,input().split(" ")))
-list_B = list(map(int,input().split(" ")))
+n1, n2 = map(int, input().split(" "))
+list_A = list(map(int, input().split(" ")))
+list_B = list(map(int, input().split(" ")))
 
-
-def seq(n1,n2,list_A,list_B):
+def seq(n1, n2, list_A, list_B):
     if n1 < n2:
         return False
-    for i in range(int(n1 - n2+1)):
-        if list_A[i:i+n2] == list_B:
-            print('Yes')
-            break
-    else:
-        print('No')
+    for i in range(n1 - n2 + 1):
+        if list_A[i:i + n2] == list_B:
+            return True
+    return False
 
-
-seq(n1,n2,list_A,list_B)
+if seq(n1, n2, list_A, list_B):
+    print('Yes')
+else:
+    print('No')
