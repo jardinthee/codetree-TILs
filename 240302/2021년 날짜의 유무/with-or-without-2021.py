@@ -1,16 +1,11 @@
 M , D = map(int,input().split())
 
-md_dic = {}
-
-
 
     
 def is_(M,D):
-    if M > 12:
+    if M > 12 or D > 31
         return False
-    elif D > 31:
-        return False
-
+  
     elif (M==2) and D >28:
         return False
  
