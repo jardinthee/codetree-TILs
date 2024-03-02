@@ -3,7 +3,7 @@ M , D = map(int,input().split())
 
     
 def is_(M,D):
-    if M > 12 or D > 31
+    if M > 12 or D > 31:
         return False
   
     elif (M==2) and D >28:
