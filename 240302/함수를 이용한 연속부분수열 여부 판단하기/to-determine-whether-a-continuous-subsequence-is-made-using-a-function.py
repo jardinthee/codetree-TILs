@@ -1,6 +1,6 @@
 n1, n2 = map(int, input().split(" "))
-list_A = list(map(int, input().split(" ")))
-list_B = list(map(int, input().split(" ")))
+list_A = list(map(int, input().split()))
+list_B = list(map(int, input().split()))
 
 def seq(n1, n2, list_A, list_B):
     if n1 < n2:
