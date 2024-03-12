@@ -10,9 +10,7 @@ def is_pal(N):
     else:
         return False
 
-if is_pal:
+if is_pal(A):
     print("Yes")
 else:
     print("No")
-
-is_pal(A)
