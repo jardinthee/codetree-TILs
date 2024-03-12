@@ -6,7 +6,7 @@ def is_pal(N):
             if i == j:
                 return True
 
-if is_pal(A):
+if is_pal(N):
     print("Yes")
 else:
     print("No")
