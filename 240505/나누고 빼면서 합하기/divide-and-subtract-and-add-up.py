@@ -1,5 +1,5 @@
-n , m = map(int,input().split(" "))
-A = list(map(int,input().split(" ")))
+n , m = map(int,input().split())
+A = list(map(int,input().split()))
 
 
 def sys(num,list_):
