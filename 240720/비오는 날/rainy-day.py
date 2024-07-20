@@ -21,6 +21,13 @@ for i,ob in enumerate(w_list):
 #rainy day
 min_idx = 0
 for i,ob in enumerate(r_list):
+    if int(ob.date[0:4]) == int(r_list[min_idx].date[0:4]):
+        if int(ob.date[5:7]) == int(r_list[min_idx].date[5:7]):
+            if int(ob.date[8:10]) == int(r_list[min_idx].date[8:10]):
+                min_idx = i
+    if int(ob.date[0:4]) == int(r_list[min_idx].date[0:4]):
+        if int(ob.date[5:7]) < int(r_list[min_idx].date[5:7]):
+            min_idx = i
     if int(ob.date[0:4]) < int(r_list[min_idx].date[0:4]):
         min_idx = i
 
